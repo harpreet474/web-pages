@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar .first-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar .first-list li a {
+    color: white;
+
+    text-decoration: none;
+}
+
+.navbar .first-list .about .sub-list {
+    position: absolute;
+    background-color: red;
+}
+.first-list .sub-list{
+display: none;
+
+}
+ .first-list .about:hover .sub-list{
+    display:block;
+ }
+ .sub-list .deep-sublist{
+    display: none;
+
+ }
+ .sub-list:hover .deep-sublist{
+    display: block;
+    background-color: aquamarine;
+ }
+ .about li {
+    list-style-type: none;
+    
+ }
+

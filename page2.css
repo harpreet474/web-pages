@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(205, 229, 205);
+
+
+}
+.header{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0px;
+
+}
+.navbar1{
+    display:flex;
+    justify-content:space-between;
+    font-family:Arial, Helvetica, sans-serifS;
+    font-size: 15px;
+    margin-top: 30px;
+
+
+    
+}
+.rightitems{
+    display: flex;
+    column-gap: 25px;
+    font-weight: bolder;
+    align-items: center;
+    
+}
+.button1{
+    background-color: rgb(8, 97, 8);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px; 
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+
+
+
+}
+.button1:hover{
+    opacity: 0.5;
+}
+.head{
+    font-size: 30px;
+    text-shadow: -2px -2px 4px rgb(141, 211, 36);
+    
+}
+.row{
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 100px;
+    right: 20px;
+    background-color: rgb(8, 97, 8);
+    color: white;
+    font-weight: bold;
+    border-radius: 25px; 
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+    float: right;
+    margin-bottom: 50px;
+
+
+
+}
+.row:hover{
+    opacity: 0.5;
+    
+    
+}
+ a:hover{
+    background-color:black ;
+    color: aliceblue;
+
+}
+p:active{
+    color: red;
+}
+span:hover{
+    background-color: yellow;
+
+}
+p:nth-last-child(1){
+    background-color: rgb(131, 131, 232);
+}
+h4::before {
+    content:"#";
+    display: none;
+
+
+}
+h4:hover::before{
+    display:inline-block;
+    background-color: yellow;
+} 
+.rightitems:hover .service{
+    background-color: blue;
+    color: white;
+
+}
+.rightitems:hover .phn{
+    background-color: aquamarine;
+}
+p:nth-child(5){
+    background-color: blueviolet;
+}
+
+.rightitems:hover :nth-child(3){
+    color: red;
+}
+
+
+    
+

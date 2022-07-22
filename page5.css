@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: url(./water1.jpg) no-repeat center center/cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px;
+
+}
+
+.container .navbar button {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-right: 50px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 3px 2px 5px  rgb(70, 221, 136);
+}
+
+.container .navbar button:hover {
+    opacity: 0.9;
+    color: white;
+}
+
+.container .content {
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    color: white;
+    text-shadow: 4px 4px 2px rgb(48, 161, 97);
+    transform: translateY(-50%);
+
+
+}
+
+.container .content .leftb {
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-left: 10px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 3px 2px 5px  rgb(70, 221, 136);
+}
+
+.container .leftb:hover {
+    opacity: 0.9;
+    color: white;
+
+}
+
+.container .sideright {
+    width: 25px;
+    height: 100vh;
+    background: linear-gradient(to top, white, rgb(41, 156, 122), black);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.container .sideright img {
+    width: 22px;
+    position: absolute;
+    top: 30px;
+    left: 5px;
+}
+
+.container .sideright .sideleft .icons {
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    text-align: center;
+    transform: translatey(90%);
+
+}
+
+.container .bubbles img {
+    width: 50px;
+    animation: bubbles 7s linear infinite;
+
+
+}
+
+.container .bubbles {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+
+
+}
+
+@keyframes bubbles {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+
+    50% {
+    
+        opacity: 1;
+    }
+
+    70% {
+
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-80vh);
+        opacity: 0;
+
+}
+}
+.container .bubbles img:nth-child(1){
+    animation-delay: 2s;
+    width: 25px;
+
+}
+.container .bubbles img:nth-child(2){
+    animation-delay: 1s;
+    width: 55px;
+
+}
+.container .bubbles img:nth-child(3){
+    animation-delay: 4s;
+    width: 35px;
+
+}
+.container .bubbles img:nth-child(4){
+    animation-delay: 3s;
+    width: 60px;
+
+}
+.container .bubbles img:nth-child(5){
+    animation-delay: 4.5s;
+    width: 40px;
+
+}.container .bubbles img:nth-child(6){
+    animation-delay: 3s;
+    width:55px ;
+
+}
+.container .bubbles img:nth-child(7){
+    animation-delay: 2s;
+    width: 25px;
+
+}
+.container .bubbles img:nth-child(8){
+    animation-delay: 3.5s;
+    width: 60px;
+
+}
+.container .bubbles img:nth-child(9){
+    animation-delay: 6s;
+    width: 35px;
+
+}
